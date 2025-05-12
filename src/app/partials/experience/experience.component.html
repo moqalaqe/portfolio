@@ -1,1 +1,43 @@
-<p>experience works!</p>
+<div class="experience">
+    <h1>Experience</h1>
+
+<div
+  class="glow-box"
+  (mousemove)="onMouseMove($event)"
+  (mouseleave)="clearGlow()"
+>
+  <div class="glow-layer" [ngStyle]="{ background: backgroundStyle }"></div>
+  <div class="content">
+    <h4>Angular Developer - Crocobet</h4>
+    <h3>Aug 2023 - Mar 2025</h3>
+    <p>
+        Developed and maintained complex Angular-based
+        UI components for high-track online casino platform.
+        Worked closely with UX/UI team to implement responsive and user-friendly
+        designs.
+        Collaborated in Agile teams using Jira and Git for version control and sprint
+        planning
+    </p>
+  </div>
+</div>
+
+<div
+  class="glow-box"
+  (mousemove)="onMouseMove2($event)"
+  (mouseleave)="clearGlow2()"
+>
+  <div class="glow-layer" [ngStyle]="{ background: backgroundStyle2 }"></div>
+  <div class="content">
+    <h4>Junior Angular Developer - interCode</h4>
+    <h3>Dec 2022 - May 2023</h3>
+    <p>
+        Worked across multiple web development projects, each with unique
+        business needs and technical challenges.
+        Built responsive, user-focused frontends using Angular, ensuring cross
+        browser compatibility and mobile optimization.
+    </p>
+  </div>
+</div>
+
+
+</div>

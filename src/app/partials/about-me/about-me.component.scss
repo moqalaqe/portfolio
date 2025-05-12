@@ -1,0 +1,26 @@
+.aboutMe{
+    position: relative;
+    color: white;
+
+    h1{
+        text-align: center;
+        margin: 0;
+        margin-bottom: 15px;
+        font-size: 38px;
+    }
+
+    &__text{
+        width: 300px;
+        margin: 0 auto;
+        text-align: center;
+        font-size: 14px;
+        line-height: 23px;
+        background-color: #1e1e1e;
+        border-radius: 12px;
+        padding: 20px;
+        p{
+            margin: 0;
+            color: #e0e0e0;
+        }
+    }
+}

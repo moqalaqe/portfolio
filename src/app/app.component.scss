@@ -1,8 +1,14 @@
 .main{
-    height: 2000px;
+    height: 1600px;
     &__header{
         margin-bottom: 20px;
         width: 100%;
-        height: 80vh;
+        height: 60vh;
+    }
+    &__aboutMe{
+        margin-bottom: 40px;
+    }
+    &__experience{
+        margin-bottom: 40px;
     }
 }
