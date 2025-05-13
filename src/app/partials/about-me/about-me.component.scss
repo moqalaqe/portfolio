@@ -24,3 +24,24 @@
         }
     }
 }
+
+@media (min-width: 768px){
+    .aboutMe{
+        h1{
+            text-align: left;
+            max-width: 600px;
+            margin: 0 auto 20px;
+        }
+        
+        &__text{
+            width: 560px;
+            text-align: left;
+            p{
+                margin: 0;
+                font-size: 18px;
+                color: #e0e0e0;
+                line-height: 26px;
+            }
+        }
+    }
+}
