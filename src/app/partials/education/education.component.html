@@ -1,1 +1,17 @@
-<p>education works!</p>
+<div class="education">
+    <h1>Education</h1>
+    <div
+        class="glow-box"
+        (mousemove)="onMouseMove($event)"
+        (mouseleave)="clearGlow()"
+    >
+        <div class="glow-layer" [ngStyle]="{ background: backgroundStyle }"></div>
+        <div class="content">
+            <h4>Tbilisi State University (TSU)</h4>
+            <h3>2022 - 2026</h3>
+            <p>
+                I am currently studying Computer Science at Tbilisi State University, where I am building a strong foundation in the fundamentals of the field. My coursework covers core topics such as programming, algorithms, data structures, and computer systems, providing me with both theoretical knowledge and practical skills essential for a career in technology.
+            </p>
+        </div>
+    </div>
+</div>
